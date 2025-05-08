@@ -30,7 +30,7 @@ EVOTE is a secure and efficient digital voting platform designed to support tran
 **Backend:**
 - Node.js
 - Express.js
-- MongoDB (via MongoDB Atlas)
+- MongoDB 
 - JSON Web Tokens (JWT) for authentication
 
 **Security:**
