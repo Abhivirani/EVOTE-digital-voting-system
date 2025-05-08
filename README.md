@@ -46,8 +46,11 @@ EVOTE is a secure and efficient digital voting platform designed to support tran
 ```bash
 git clone https://github.com/your-username/evote.git
 cd evote
+### 2. Backend Setup
+```bash
 cd backend
 npm install
+
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT = 5000
