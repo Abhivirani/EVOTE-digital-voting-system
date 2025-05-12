@@ -1,10 +1,10 @@
-# EVOTE - Digital Voting System 🗳️
+# EVOTE - Digital Voting System 🗳
 
 EVOTE is a secure and efficient digital voting platform designed to support transparent and tamper-proof elections. It enables election authorities to manage voters and candidates, while ensuring that only authorized users can cast encrypted votes.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Role-based Access:** Election Authority (Admin) and Voter accounts.
 - **Authentication System:** JWT-based login and registration.
@@ -21,7 +21,7 @@ EVOTE is a secure and efficient digital voting platform designed to support tran
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:**
 - Next.js
@@ -39,5 +39,34 @@ EVOTE is a secure and efficient digital voting platform designed to support tran
 - Only validated users can access voting system
 
 ---
+
+## 📦 Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Abhivirani/EVOTE-digital-voting-system.git
+cd evote
+```
+### 2. Backend Setup
+```bash
+cd backend
+npm install
+```
+Create a .env file in backend/:
+```bash
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT = 5000
+```
+Start the backend server:
+```bash
+npm run dev
+```
+### 3. Frontend Setup
+```bash
+cd ../frontend
+npm install
+npm run dev
+```
 
 
